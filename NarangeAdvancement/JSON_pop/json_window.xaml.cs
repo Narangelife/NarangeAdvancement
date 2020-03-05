@@ -34,7 +34,7 @@ namespace NarangeAdvancement.JSON_pop
             TreeView tr = new TreeView();
             TreeView tra = new TreeView();
             tr.Items.Add("A");
-            tra.Items.Add("A");
+            tra.Items.Add("ABC");
             tr.Items.Add(tra);
             c.Add(tr);
             treeview_2.ItemsSource = c;
